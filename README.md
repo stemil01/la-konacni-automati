@@ -24,7 +24,7 @@ from parser.RegexParser import parse_regex
 3. унија ће бити `('union', levi_podizraz, desni_podizraz)`
 4. Клинијево затворење ће бити `('star', podizraz)`
 
-На пример, регуларни израз `(a|b)*abb` ће бити представњен као:
+На пример, регуларни израз `(a|b)*abb` ће бити представљен као:
 ```
 ('concat',
  ('concat',
